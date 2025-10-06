@@ -1,0 +1,222 @@
+body {
+        background-color: #181818;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px; 
+        width: 650px;
+    }
+
+    .caixa {
+        background-color: #272424;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(43, 41, 41, 0.5);
+    }
+
+    .titulo {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #ddd;
+    }
+
+    .botoes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    button {
+        background-color: #e6e6e6;
+        color: #000;
+        border: none;
+        border-radius: 6px;
+        padding: 8px 14px;
+        cursor: pointer;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: background-color 0.2s;
+    }
+
+    button:hover {
+        background-color: #ccc;
+    }
+
+    .icon {
+        font-weight: bold;
+    }
+    #social{
+        background-color: green;
+        
+        
+    }
+    .caixa {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    width: 650px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.titulo {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+
+.mes {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+
+th {
+    background-color: #555;
+    color: #fff;
+}
+
+
+td {
+    background-color: #6b6a26;
+    color: #fff;
+}
+
+
+td.vazio {
+    background-color: #333;
+}
+
+
+td.hoje {
+    font-weight: bold;
+    background-color: #8a892e;
+}
+
+
+.etapa {
+    background-color: #6b6a26;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.botao {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #e6e6e6;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+.menu-lateral {
+    width: 220px;
+    background-color: #0f0f0f;
+    height: 100vh;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+/* Logo "suap" */
+.menu-lateral .logo {
+    color: #00b37e;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Perfil */
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.perfil img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.perfil p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Campo de busca */
+.busca {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* Lista de itens */
+.menu {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+}
+.menu li {
+    padding: 10px;
+    color: #ccc;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+.menu li:hover {
+    background-color: #1f1f1f;
+    color: #00b37e;
+}
+.menu li.ativo {
+    color: #00b37e;
+}
+.menu li.sair {
+    color: #e74c3c;
+}
