@@ -53,9 +53,15 @@ body {
 
     .icon {
         font-weight: bold;
+     
+        #social{
+        background-color: #81bf40;
+        
     }
-    #social{
-        background-color: green;
+    #social:hover{
+        background-color:#608f2e;
+        
+    }
         
         
     }
@@ -219,4 +225,5 @@ button:hover {
 }
 .menu li.sair {
     color: #e74c3c;
+
 }
