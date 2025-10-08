@@ -4,70 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUAP: Sistema Unificado de Administração Pública</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<aside class="menu-lateral">
-      <div class="logo">suap</div>
+    <div class="menu-lateral">
+    <div class="logo">suap</div>
+    <div class="perfil">
+        <img src="https://cdn.suap.ifrn.edu.br/media/alunos/75x100/381548.UYW07J-xhECw.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=24I2DK2GsCsUIcxsjfkg%2F20251008%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20251008T172700Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2c2c7dca30e7a069491f46dcc5040783cc3702e8fec6748b31ad2a1543947087" alt="foto do perfil">
+        <p>kainan silva</p>
+    </div>
+    <input type="text" class="pesquisa" placeholder="buscar">
 
-      <div class="perfil">
-          <img src="https://cdn.suap.ifrn.edu.br/media/alunos/150x200/381548.UYW07J-xhECw.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=24I2DK2GsCsUIcxsjfkg%2F20251006%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20251006T153610Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7582b76d5d4e1e3e889fabd4adbc140006ee30fa72cd7e1e033a453d856905c1" alt="Foto de perfil">
-          <p>Kainan Silva</p>
-      </div>
+    <ul class="menu">
+        <li>Inicio</li>
+        <li>Documentos/Processos</li>
+        <li>Ensino</li>
+        <li>Pesquisa</li>
+        <li>Extensão</li>
+        <li>Tec. da Informação</li>
+        <li>Central de Serviços</li>
+        <li> Atividades Estudantis</li>
+        <li>Saúde</li>
+        <li>Comunicação Social</li>
+        <li>Des. Institucional</li>
+        <li class="sair">Sair</li>
+    </ul>
+</div>
 
-      <input type="text" class="busca" placeholder="Buscar menu">
+<div class="avisos">
+    <p>avisos</p>
+    <button class="avisos-b" ><span>Há oportunidades de prática profissional<br> (Estágio/ Aprendizagem)  disponíveis para seu curso.</span></button>
+</div>
 
-      <ul class="menu">
-          <li>🏠 Início</li>
-          <li>📄 Documentos/Processos</li>
-          <li>📚 Ensino</li>
-          <li>🔬 Pesquisa</li>
-          <li>🎓 Extensão</li>
-          <li>💻 Tec. da Informação</li>
-          <li>🛠️ Central de Serviços</li>
-          <li >🎯 Atividades Estudantis</li>
-          <li>🏥 Saúde</li>
-          <li>💬 Comunicação Social</li>
-          <li>🏛️ Des. Institucional</li>
-          <li class="sair">🚪 Sair</li>
-      </ul>
-  </aside>
-
-
-         <div class="container">
-
-        <div class="caixa">
-            <div class="titulo">Ensino</div>
-            <div class="botoes">
-                <button><span class="icon">👤</span> Meus Dados</button>
-                <button><span class="icon">📅</span> Agenda de Avaliações</button>
-                <button><span class="icon">🔍</span> Locais e Horários de Aula</button>
-                <button><span class="icon">🔎</span> Meus Requerimentos</button>
-                <button><span class="icon">🔎</span> Minhas Disciplinas</button>
-            </div>
+<div class="caixa-grade">
+    <div class="dentro-caixa">
+        <div class="nome-caixa">Ensino</div>
+        <div class="opcoes">
+            <button><span class="icon"></span> Meus Dados</button>
+            <button><span class="icon"></span> Agenda de Avaliações</button>
+            <button><span class="icon"></span> Locais e Horários de Aula</button>
+            <button><span class="icon"></span> Meus Requerimentos</button>
+            <button><span class="icon"></span> Minhas Disciplinas</button>
         </div>
+    </div>
 
-        <div class="caixa">
-            <div class="titulo">Serviço Social</div>
-            <div class="botoes">
-                <button id="social"><span class="icon">+</span>  Solicitar Refeição</button>
-                <button id="social"><span class="icon">+</span> Solicitar Auxílio Eventual</button>
-                <button><span class="icon">🧾</span>  Registro de Atividades</button>
-                <button><span class="icon">🧾</span>   Informar falta no Programa de Alimentação</button>
+    <div class="dentro-caixa">
+            <div class="nome-caixa">Serviço Social</div>
+            <div class="opcoes">
+                <button id="verde"><span class="icon"></span>  Solicitar Refeição</button>
+                <button id="verde"><span class="icon">+</span> Solicitar Auxílio Eventual</button>
+                <button><span class="icon"></span>  Registro de Atividades</button>
+                <button><span class="icon"></span>   Informar falta no Programa de Alimentação</button>
             </div>
-        </div>
 
-         <div class="caixa">
-            <div class="titulo">Serviços Microsoft</div>
-            <div class="botoes">
+    </div>
+
+    <div class="dentro-caixa">
+            <div class="nome-caixa">Serviços Microsoft</div>
+            <div class="opcoes">
                 <button ><span class="icon">+</span>   E-mail Institucional</button>
                 <button><span class="icon">+</span>  Microsoft Azure</button>
-                <button><span class="icon">🧾</span>  Portal Office 365</button>
+                <button><span class="icon"></span>  Portal Office 365</button>
             </div>
         </div>
 
-        <div class="caixa">
-         <div class="titulo">Calendário Acadêmico</div>
+        <div class="dentro-caixa">
+            <div class="nome-caixa">Serviços Microsoft</div>
+            <div class="opcoes">
+                <button ><span class="icon"></span>   meus chamados</button>
+                <button id="verde"><span class="icon"></span>  abrir chamado</button>
+                <button><span class="icon"></span>  base de conhecimento</button>
+            </div>
+        </div>
+
+<div class="dentro-caixa">
+         <div class="nome-caixa">Calendário Acadêmico</div>
 
         <div class="mes">Outubro</div>
 
@@ -88,7 +99,7 @@
                     <td class="vazio"></td><td class="vazio"></td><td class="vazio"></td><td>1</td><td>2</td><td>3</td><td>4</td>
                 </tr>
                 <tr>
-                    <td>5</td><td class="hoje">6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td>
+                    <td>5</td><td >6</td><td>7</td><td class="hoje">8</td><td>9</td><td>10</td><td>11</td>
                 </tr>
                 <tr>
                     <td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td>
@@ -104,12 +115,12 @@
 
         <div class="etapa">De 9/9 a 12/11: 3ª Etapa</div>
 
-        <div class="botao">
+        <div class="botao-c">
             <button>🔗 Calendário Completo</button>
         </div>
         </div>
-        </div>
-    </div>
-</body>
 
+</div>
+
+</body>
 </html>
