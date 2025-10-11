@@ -5,15 +5,20 @@ body{
     display: flex;
     justify-content: center;
     padding: 40px;
+    text-transform: capitalize;
 }
 .avisos{
-    display: flex;
-    flex-direction: column;
-   gap: 1px;
-   width: 180px ;
+    border-radius: 10px;
+    top: 0.0001%;
+    width: 900px;
+    left: 145px;
+    padding: 100px;
+    right: 100px;
+    gap: 10px;
+    position: absolute;
    
 }
- .avisos-b:hover{
+   .avisos-b:hover{
     background-color: rgb(31, 82, 82);
     color: #181818;
  }
@@ -81,17 +86,22 @@ body{
     color: red;
 }
 .caixa-grade{
-    display: flex;
+    display: grid;
     flex-direction: column;
-   gap: 25px;
-   width: 650px ;
+    gap: 20px;
+    width: 89px ;
+    align-items: center;
 }
 .dentro-caixa{
     background-color:#272424;
     padding: 30px;
     border-radius: 10px;
     width: 550px;
+    border-radius: 10px;      
+    padding: 15px;            
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6); 
 }
+
 .nome-caixa{
     font-size: 20px;
     margin-bottom: 20px;
@@ -101,6 +111,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+.opcoes button:hover{
+     background-color: #ccc;
 }
 button{
     background-color: #e6e6e6;
@@ -171,3 +184,46 @@ td.hoje{
 .botao-c{
     margin-top: 20px;
 }
+.vermelho{
+    color: red;
+    
+}
+.sem-bola li{
+    list-style-type: none;
+    
+}
+.sem-bola span {
+    font-size: 50px;
+    margin-right: 8px;
+}
+.verde-bola{
+    color: rgba(63, 167, 22, 0.877);
+    
+}
+.amarelo{
+    color: rgba(243, 221, 20, 0.877);
+    
+}
+.pesquisa-eltronico {
+    width: 300px;
+    padding: 10px 10px 10px 35px;
+    background-color: #2b2b2b;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6);
+   
+}
+
+.pesquisa-eltronico::placeholder {
+    color: #bbb;
+}
+.busca{
+    text-align: center;
+    width: 3000px;
+    left: 9000px;
+}
+
+
